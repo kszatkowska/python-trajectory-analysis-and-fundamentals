@@ -1,0 +1,24 @@
+# Python Fundamentals & Trajectory Data Processing
+
+Ten projekt to zbiór modułów demonstrujących praktyczną znajomość języka Python, obejmujący zarówno podstawowe algorytmy, jak i przetwarzanie danych fizycznych. Kluczowym elementem jest analiza danych przestrzennych i wizualizacja parametrów ruchu.
+
+## Główne funkcjonalności
+
+*   **Analiza Trajektorii i Prędkości (Zadanie 9):** Wczytywanie danych referencyjnych z pliku `.csv` (`reference_trajectory.csv`)[cite: 1, 2]. Skrypt analizuje pozycje obiektu w osiach X, Y, Z, generuje wykresy za pomocą `matplotlib` i na podstawie różnicy położeń oblicza prędkość, zapisując wyniki do `velocity.csv`[cite: 1].
+*   **Operacje I/O:** Zaawansowane operacje na plikach, w tym generowanie, zapis i odczyt danych z plików tekstowych oraz binarnych[cite: 1].
+*   **Algorytmika:** Implementacja klasycznych problemów, takich jak generowanie i wizualizacja ciągu Fibonacciego, operacje na słownikach oraz instrukcje warunkowe[cite: 1].
+
+## Stack Technologiczny
+
+*   **Język:** Python 3
+*   **Biblioteki:** 
+    *   `numpy` (>=1.21.2) - operacje na macierzach i obliczenia średnich[cite: 1, 3]
+    *   `matplotlib` (>3.2.0) - wizualizacja danych[cite: 1, 3]
+    *   Wbudowane moduły: `csv`, `datetime`, `random`[cite: 1]
+
+## Uruchomienie projektu
+
+1. Sklonuj to repozytorium na swój komputer.
+2. Upewnij się, że masz zainstalowane wymagane pakiety:
+   ```bash
+   pip install -r requirements.txt
